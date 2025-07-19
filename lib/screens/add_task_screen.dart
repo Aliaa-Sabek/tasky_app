@@ -85,7 +85,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                   _priority = index;
                   Navigator.pop(context);
 
-                  // Show alert if High priority
+                 
                   if (index == 2) {
                     Future.delayed(const Duration(milliseconds: 300), () {
                       showDialog(

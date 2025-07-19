@@ -7,7 +7,6 @@ import 'package:tasky_app/screens/onboarding_screen.dart';
 import 'package:tasky_app/screens/register_screen.dart';
 import 'package:tasky_app/screens/splash_screen.dart';
 import 'package:tasky_app/screens/welcome_screen.dart';
-import 'package:tasky_app/screens/update_screen.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -38,7 +37,7 @@ class TaskyApp extends StatelessWidget {
         '/welcome': (context) => const WelcomeScreen(),
         '/home': (context) => const HomeScreen(),
         '/addTask': (context) => const AddTaskScreen(),
-        // Note: UpdateScreen should be used with MaterialPageRoute to pass Task
+    
       },
     );
   }

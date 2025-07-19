@@ -15,7 +15,7 @@ class AppTheme {
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        backgroundColor: Color(0xFF6A0DAD),
+        backgroundColor: const Color(0xFF6A0DAD),
         foregroundColor: Colors.white,
         textStyle: const TextStyle(fontSize: 16),
         padding: const EdgeInsets.symmetric(vertical: 14),
@@ -41,13 +41,13 @@ class AppTheme {
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        backgroundColor: Color(0xFF6A0DAD),
+        backgroundColor: const Color(0xFF6A0DAD),
         foregroundColor: Colors.white,
         textStyle: const TextStyle(fontSize: 16),
         padding: const EdgeInsets.symmetric(vertical: 14),
       ),
     ),
-    colorScheme: ColorScheme.dark().copyWith(
+    colorScheme: const ColorScheme.dark().copyWith(
       primary: const Color(0xFF6A0DAD),
       secondary: Colors.yellow,
     ),

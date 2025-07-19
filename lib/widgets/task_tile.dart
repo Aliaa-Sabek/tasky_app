@@ -24,7 +24,7 @@ class TaskTile extends StatelessWidget {
         decoration: BoxDecoration(
           color: isDone ? Colors.grey[300] : Colors.white,
           borderRadius: BorderRadius.circular(12),
-          boxShadow: [
+          boxShadow: const [
             BoxShadow(
               color: Colors.black12,
               blurRadius: 4,

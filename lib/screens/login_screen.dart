@@ -25,7 +25,7 @@ class _LoginScreenState extends State<LoginScreen> {
         password: _passwordController.text.trim(),
       );
 
-      // ✅ بعد نجاح تسجيل الدخول نروح على شاشة welcome
+      
       Navigator.pushReplacementNamed(context, '/welcome');
     } on FirebaseAuthException catch (e) {
       String errorMessage = 'Login failed';
